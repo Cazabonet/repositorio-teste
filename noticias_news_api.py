@@ -8,11 +8,11 @@ def buscar_noticias(tema, quantidade):
     Função que busca notícias da NewsAPI com base em um tema e uma quantidade.
 
     Parâmetros:
-    tema (str): O tema que o usuário deseja pesquisar nas notícias.
+    tema (str): O tema que o usuário pretende pesquisar nas notícias.
     quantidade (int): A quantidade de notícias a ser retornada (entre 1 e 10).
 
     Retorna:
-    list: Uma lista de artigos encontrados para o tema, contendo título, fonte, autor, etc.
+    list: Uma lista de artigos encontrados para o tema, tendo título, entre outras especificidades que estão o autor,fonte  etc.
     """
     url = 'https://newsapi.org/v2/everything'
 
